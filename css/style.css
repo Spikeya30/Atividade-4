@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1024px;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#titulo1 {
+    font-family: "Fira Code", monospace;
+    text-align: center
+}
+
+#imagem-receita {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#pudim {
+    border-radius: 10px;
+}
+
+img {
+  width: 100%
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+}
+
+#descricao {
+    font-family: Helvetica, Arial;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-indent: 4rem;
+    font-style: italic;
+}
+
+#ingretientes {
+    line-height: 1.5rem;
+}
+
+#tempo {
+    font-size: small;
+    color: rgb(87, 87, 87);
+    font-style: italic;
+}
+
+minutos {
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    background: black;
+}
